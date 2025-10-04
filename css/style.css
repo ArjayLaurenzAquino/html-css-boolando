@@ -17,6 +17,11 @@ body {
 }
 .bg-org {
     background-color: darkorange;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .navbar {
@@ -32,11 +37,15 @@ body {
 
 .donna, .uomini, .bambini {
     width: 20%;
+    font-size: larger;
 }
 
 .logo {
     width: 33%;
     justify-content: center;
+}
+.logo > img {
+    width: 33%;
 }
 
 .mini-navbar {
@@ -46,4 +55,78 @@ body {
 
 main {
     background-color: white;
+}
+
+.cards-flex {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cards-margin {
+    margin: 7em;
+
+}
+figure > img {
+    width: 100%;
+    background-color: white;
+}
+
+.card {
+    width: 32%;
+    position: relative;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 0;
+    z-index: 1;
+}
+.flex-footer {
+    justify-content: space-between;
+}
+.footer-space {
+    padding: 1em 0;
+}
+.footer-space2 {
+    padding: 0.5em 0;
+}
+.prices {
+    width: 36%;
+    justify-content: space-between;
+
+}
+.actual-price {
+    color: red;
+    font-size: large;
+}
+.before-price {
+    text-decoration: line-through;
+    font-size: large;
+}
+.heart {
+    font-size: 30px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.sale {
+    color: white;
+    background-color: red;
+    padding: 0.5em 1em;
+    position: absolute;
+    bottom: 150px;
+    left: 0;
+}
+.sostenibilita {
+    color: white;
+    background-color:forestgreen;
+    padding: 0.5em 1em;
+    position: absolute;
+    bottom: 150px;
+    left: 0;
 }
