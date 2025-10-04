@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.flex-container {
+    display: flex;
+}
+.boxed {
+    margin: 0 auto;
+    width: 80%;
+}
+.bg-org {
+    background-color: darkorange;
+}
+
+.navbar {
+    color: white;
+
+    padding: 1em;
+    justify-content: space-between;
+}
+
+.categories {
+    width: 33%;
+}
+
+.donna, .uomini, .bambini {
+    width: 20%;
+}
+
+.logo {
+    width: 33%;
+    justify-content: center;
+}
+
+.mini-navbar {
+    width: 33%;
+    justify-content: flex-end;
+}
+
+main {
+    background-color: white;
+}
