@@ -168,7 +168,7 @@ main {
     left: 0;
     z-index: 1;
 }
-.image-1:hover {
+.card-image:hover .image-1 {
     z-index: 0;
 }
 .information {
